@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mantis version="1.2.15" urlbase="http://bugs.oe-f.org/" issuelink="#" notelink="~" format="1">
+    <issue>
+        <id>88</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="2">bertrand</handler>
+        <priority id="30">normal</priority>
+        <severity id="40">tweak</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="5">Desktop Mode</category>
+        <date_submitted>1376472095</date_submitted>
+        <last_updated>1376639710</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.02</version>
+        <fixed_in_version>1.00.00</fixed_in_version>
+        <target_version>1.00.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>In mode Desktop, the label of the button OpenBoard is still in english</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>In mode Desktop, the label when you have the cursor on the button OpenBoard is still in english &quot;Show OpenBoard&quot;</description>
+    </issue>
+    <issue>
+        <id>5</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="4">cpavillard</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1369613632</date_submitted>
+        <last_updated>1376639654</last_updated>
+        <eta id="10">none</eta>
+        <version>0.08.b.00</version>
+        <fixed_in_version>1.00.00</fixed_in_version>
+        <target_version>1.00.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Magic finger doesn't work properly with several nearby objects</summary>
+        <due_date>1</due_date>
+        <description>When trying to move objects that are closed to each other, the magic finger is unable to select the correct object</description>
+        <steps_to_reproduce>- Draw one big square&#13;
+- Inside this square, draw a small square&#13;
+- Using the magic finger, slightly move the big square&#13;
+- Now try to move the small square that is inside the big square&#13;
+-&gt; The small square doesn't move but the big square does inside</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>28</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="2">bertrand</handler>
+        <priority id="40">high</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="8">Internationalization &amp; Wording</category>
+        <date_submitted>1373368834</date_submitted>
+        <last_updated>1376638220</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.7</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>1.00.00</fixed_in_version>
+        <view_state id="10">public</view_state>
+        <summary>Word Uniboard appers in the first panel of the OpenBOardImporter</summary>
+        <due_date>1</due_date>
+        <profile_id>11</profile_id>
+        <description>The word Uniboard appers in the first panel of the OpenBOardImporter</description>
+        <steps_to_reproduce>Required : Open-Sankoré installed&#13;
+- Launch OpenBoard&#13;
+- Click yes to the message : &quot;Open-Sankoré directory is present on the disk. It's possible to import the Open-Sankoré documents into OpenBoard as the preferences. Pushing Ok will close OpenBoard and run the importer application.&quot;</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>22</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="2">bertrand</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="8">Internationalization &amp; Wording</category>
+        <date_submitted>1372930009</date_submitted>
+        <last_updated>1376638116</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>1.00.00</fixed_in_version>
+        <view_state id="10">public</view_state>
+        <summary>Hide OpenBoard must be Cacher OpenBoard</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>Hide OpenBoard must be Cacher OpenBoard</description>
+    </issue>
+    <issue>
+        <id>89</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="2">bertrand</handler>
+        <priority id="30">normal</priority>
+        <severity id="40">tweak</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="8">Internationalization &amp; Wording</category>
+        <date_submitted>1376482000</date_submitted>
+        <last_updated>1376637708</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.02</version>
+        <fixed_in_version>1.00.00</fixed_in_version>
+        <target_version>1.00.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>In Preferences, the chexbox for Importer is still in english</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>In Preferences, the chexbox for Importer is still in english (as of course all the importer himself)</description>
+    </issue>
+</mantis>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mantis version="1.2.15" urlbase="http://bugs.oe-f.org/" issuelink="#" notelink="~" format="1">
+    <issue>
+        <id>9</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="5">Desktop Mode</category>
+        <date_submitted>1369662840</date_submitted>
+        <last_updated>1376407452</last_updated>
+        <eta id="10">none</eta>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Change home page</summary>
+        <due_date>1</due_date>
+        <description>Change home page of the browser.</description>
+        <steps_to_reproduce>- Open Web tab&#13;
+- &gt; homepage is still http://sankore.org/fr</steps_to_reproduce>
+        <additional_information>To be defined</additional_information>
+    </issue>
+    <issue>
+        <id>62</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="100">N/A</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="8">Internationalization &amp; Wording</category>
+        <date_submitted>1373641574</date_submitted>
+        <last_updated>1376402441</last_updated>
+        <eta id="10">none</eta>
+        <os>all</os>
+        <os_build>all</os_build>
+        <platform>all</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Add sample of picture, video, audio, flash animations in folders</summary>
+        <due_date>1</due_date>
+        <description>Select a few item to fill :picture, audio, video and animation folders</description>
+    </issue>
+    <issue>
+        <id>21</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="1">General</category>
+        <date_submitted>1372925074</date_submitted>
+        <last_updated>1376393522</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>OB proposes an update, but impossible to go to the address</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>OB proposes an update, but when we click to YES, it's impossible to go to http://get.oe-f.org</description>
+    </issue>
+    <issue>
+        <id>85</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="11">Others</category>
+        <date_submitted>1376379234</date_submitted>
+        <last_updated>1376393323</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.02</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>with black background, the text of the checkbox in the window for importing is invisible</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>With black background, the text of the checkbox (Show this panel next time) in the window for importing is invisible, because it's in black</description>
+    </issue>
+    <issue>
+        <id>27</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="80">block</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="1">General</category>
+        <date_submitted>1372942439</date_submitted>
+        <last_updated>1376309929</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Images, sounds, videos deleted can be found in folder OB documents</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>Images, sounds, videos deleted can be found in folder OB documents and even more, new folder appears in OB folder in /Application Support/Documents</description>
+        <steps_to_reproduce>Open OB&#13;
+- write 1 in page 1 with pen&#13;
+- drag a sound in page 2&#13;
+- drag a video in page 3&#13;
+- drag a picture in page 4&#13;
+- write 5 in page 5&#13;
+- go to mode Documents, name the document as Test medias ; duplicate Test medias to Test medias 2&#13;
+Close OB&#13;
+Go in the OB folder (in Application Support), Documents --&gt; there is 2 OB folders&#13;
+Open OB&#13;
+- go to document Test medias&#13;
+- from the Document mode, delete page 2, 3 and 4&#13;
+Close OB&#13;
+Go in the OB folder --&gt; the folder corresponding to Test Medias has always a folder images which contains the image of the page 4. First bug&#13;
+&#13;
+Open OB&#13;
+- go to document Test medias 2&#13;
+- go to page 2, delete the sound, go to page 3, delete the video, go to page 4, delete the image&#13;
+Close OB&#13;
+Go in the OB folder --&gt; the folder corresponding to Test Medias 2 contains always the folders images, videos, audios which contain the media used in pages 2, 3, 4. Second big bug. &#13;
+&#13;
+I look in this folder and i see that the thumbnail and svg of the last page (5) was blank. So i open again OB, go to Test Medias 2 and create a page 6 with a number 6 writed with pen. &#13;
+- i go again in OB folder and i have no more 2 folders, one for Test Medias, one for Test Medias 2, but 3 folders.  Folder 1 corresponds to Test Medias and contains folder images, but folders 2 and 3 contain the 3 folders of medias. The difference is that folder 2 contains thumbnail and svg for 1 page, but folder 3 contain thumbnail and svg for 6 pages (but no thumnail for page 000. Third big bug</steps_to_reproduce>
+        <additional_information>OpenBoard Document 2013-07-04 14-10-44.660 corresponds to Test Medias&#13;
+&#13;
+OpenBoard Document 2013-07-04 14-09-43.259 corresponds to Test Medias 2, this folder contains only thumbail and svg for one page.&#13;
+&#13;
+OpenBoard Document 2013-07-04 14-08-37.626 corresponds to Test Medias 2, this folder contains thumbail and svg for 6 pages (but no thumbnail for page 0).&#13;
+</additional_information>
+    </issue>
+    <issue>
+        <id>83</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1375696389</date_submitted>
+        <last_updated>1376254602</last_updated>
+        <eta id="10">none</eta>
+        <os>All</os>
+        <os_build>All</os_build>
+        <platform>x86 x86_64</platform>
+        <version>0.08.b.02</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Redo button</summary>
+        <due_date>1</due_date>
+        <profile_id>15</profile_id>
+        <description>Redo does not work properly</description>
+        <steps_to_reproduce>- Open the software&#13;
+- Add 3 pictures on the board&#13;
+- Undo actions&#13;
+- Redo actions&#13;
+&#13;
+-&gt; Redo does not work at all</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>80</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="11">Others</category>
+        <date_submitted>1375685023</date_submitted>
+        <last_updated>1375799960</last_updated>
+        <eta id="10">none</eta>
+        <os>All</os>
+        <os_build>All</os_build>
+        <platform>x86 x86_64</platform>
+        <version>0.08.b.02</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>&quot; does not appear correcty on ReleaseNote.pdf</summary>
+        <due_date>1</due_date>
+        <profile_id>15</profile_id>
+        <description>&quot; appears  &amp;quot in issue 46</description>
+        <steps_to_reproduce>- Open the releasenote&#13;
+- Title of issue 46 is not correctly exported &#13;
+-&gt; &amp;quot instead of &quot;</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>64</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373805845</date_submitted>
+        <last_updated>1375757932</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Text selected in a text box grouped with other object remains with gray background</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Text selected in a text box grouped with other object remains with gray background</description>
+        <steps_to_reproduce>- Create a text box with text in it&#13;
+- Create a other object&#13;
+- Group the 2 objects&#13;
+- Select the text in the text box&#13;
+- Unselect the group&#13;
+See the selected text with gray background</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>43</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373468969</date_submitted>
+        <last_updated>1375752823</last_updated>
+        <eta id="10">none</eta>
+        <os>all</os>
+        <os_build>all</os_build>
+        <platform>all</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Z-level is not saved when copy-paste multiple objects</summary>
+        <due_date>1</due_date>
+        <description>Z-level is not saved when copy-paste multiple objects</description>
+        <steps_to_reproduce>- Drag and drop 1 object to the board and then another one&#13;
+- Put the first object on the of the second object&#13;
+- Move it's position so it is positionned behind the second object&#13;
+- Select the 2 objects&#13;
+- Copy them&#13;
+- Paste them&#13;
+-&gt; The z-lever is not copied, only the objects, therefore the first object loses it's set position</steps_to_reproduce>
+        <additional_information>related to 1623 in Jira</additional_information>
+    </issue>
+    <issue>
+        <id>81</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="10">Document Mode</category>
+        <date_submitted>1375689987</date_submitted>
+        <last_updated>1375700892</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.02</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Importing a pdf add a blank page 1</summary>
+        <due_date>1</due_date>
+        <profile_id>14</profile_id>
+        <description>Importing a pdf add a blank page 1</description>
+        <steps_to_reproduce>- Open the software&#13;
+- Open the document mode&#13;
+- Import a .pdf with several pages&#13;
+-&gt; A blank page 1 appears&#13;
+&#13;
+Only the .pdf should be displayed</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>49</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373615446</date_submitted>
+        <last_updated>1375687094</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>An undo on z-level do not respect the last position of the item</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>An undo on z-level do not respect the last position of the item</description>
+        <steps_to_reproduce>- Add 3 picture on the board&#13;
+- Center the third one&#13;
+- Change the Z-level of the third one - send to back&#13;
+- Press the undo button&#13;
+&#13;
+-&gt; Undo do not respect the last position of the third picture</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>78</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="10">shibakaneki</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1375415925</date_submitted>
+        <last_updated>1375425127</last_updated>
+        <eta id="10">none</eta>
+        <os>OSX</os>
+        <os_build>10.6</os_build>
+        <platform>Mac</platform>
+        <version>0.08.b.02</version>
+        <fixed_in_version>0.08.b.03</fixed_in_version>
+        <target_version>0.08.b.03</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Z-level move up doesn't work correctly for multiple selection</summary>
+        <due_date>1</due_date>
+        <description>The Z-level move up feature is not working correctly when multiple items are selected.</description>
+        <steps_to_reproduce>- Put 3 pictures on the board&#13;
+- Select 2 of them, but don't make a group&#13;
+- Click on the move down button (Z-level) --&gt; the 2 pictures are moved down correctly&#13;
+- Select the two same pictures again&#13;
+- Click on the move up button (Z-level) --&gt; nothing happens</steps_to_reproduce>
+    </issue>
+</mantis>

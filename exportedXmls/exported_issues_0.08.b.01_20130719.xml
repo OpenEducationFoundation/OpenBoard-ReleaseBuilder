@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mantis version="1.2.15" urlbase="http://bugs.oe-f.org/" issuelink="#" notelink="~" format="1">
+    <issue>
+        <id>46</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="40">high</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="30">sometimes</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="10">Document Mode</category>
+        <date_submitted>1373526052</date_submitted>
+        <last_updated>1374160399</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Application crash sometimes  when using &quot;Ajouter au document&quot; or do nothing or work</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Sometimes application crash when using &quot;Ajouter au document&quot;. But the page is still add.&#13;
+Sometimes application come back to the board mode and do not add any page&#13;
+Sometimes it work well&#13;
+&#13;
+I tried to find a schema but I didn't find it</description>
+        <steps_to_reproduce>-Create a new document&#13;
+- Switch to Document mode &#13;
+- Select a other document&#13;
+- Select a page into it&#13;
+- Click add to file  &quot;Ajouter au document&quot;.</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>3</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="4">cpavillard</reporter>
+        <handler id="4">cpavillard</handler>
+        <priority id="40">high</priority>
+        <severity id="30">text</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="1">General</category>
+        <date_submitted>1369612829</date_submitted>
+        <last_updated>1373641763</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac Os X</os>
+        <os_build>10.7</os_build>
+        <platform>Desktop</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Adapt license text of installer</summary>
+        <due_date>1</due_date>
+        <profile_id>3</profile_id>
+        <description>The license text of the installer had to be adapted to take in account the copyright of the foundation.</description>
+    </issue>
+    <issue>
+        <id>9</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="2">bertrand</handler>
+        <priority id="40">high</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="30">reopened</resolution>
+        <projection id="10">none</projection>
+        <category id="5">Desktop Mode</category>
+        <date_submitted>1369662840</date_submitted>
+        <last_updated>1373641719</last_updated>
+        <eta id="10">none</eta>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Change home page</summary>
+        <due_date>1</due_date>
+        <description>Change home page of the browser.</description>
+        <steps_to_reproduce>- Open Web tab&#13;
+- &gt; homepage is still http://sankore.org/fr</steps_to_reproduce>
+        <additional_information>To be defined</additional_information>
+    </issue>
+    <issue>
+        <id>28</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="2">bertrand</handler>
+        <priority id="40">high</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="8">Internationalization &amp; Wording</category>
+        <date_submitted>1373368834</date_submitted>
+        <last_updated>1373641678</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.7</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Word Uniboard appers in the first panel of the OpenBOardImporter</summary>
+        <due_date>1</due_date>
+        <profile_id>11</profile_id>
+        <description>The word Uniboard appers in the first panel of the OpenBOardImporter</description>
+        <steps_to_reproduce>Required : Open-Sankoré installed&#13;
+- Launch OpenBoard&#13;
+- Click yes to the message : &quot;Open-Sankoré directory is present on the disk. It's possible to import the Open-Sankoré documents into OpenBoard as the preferences. Pushing Ok will close OpenBoard and run the importer application.&quot;</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>29</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="30">text</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="11">Others</category>
+        <date_submitted>1373369430</date_submitted>
+        <last_updated>1373641184</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Name OpenBoard doesn't appear in the file  ReleaseNotes.pdf and JournalDesModifiactions.pdf</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>In the OpenBoard.dmg the two files ReleaseNotes.pdf and JournalDesModifiactions.pdf the name OpenBoard doesn't appear </description>
+        <steps_to_reproduce>- Open OpenBoard.dmg&#13;
+- Read the two files</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>27</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="80">block</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="40">confirmed</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="1">General</category>
+        <date_submitted>1372942439</date_submitted>
+        <last_updated>1373641170</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Images, sounds, videos deleted can be found in folder OB documents</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>Images, sounds, videos deleted can be found in folder OB documents and even more, new folder appears in OB folder in /Application Support/Documents</description>
+        <steps_to_reproduce>Open OB&#13;
+- write 1 in page 1 with pen&#13;
+- drag a sound in page 2&#13;
+- drag a video in page 3&#13;
+- drag a picture in page 4&#13;
+- write 5 in page 5&#13;
+- go to mode Documents, name the document as Test medias ; duplicate Test medias to Test medias 2&#13;
+Close OB&#13;
+Go in the OB folder (in Application Support), Documents --&gt; there is 2 OB folders&#13;
+Open OB&#13;
+- go to document Test medias&#13;
+- from the Document mode, delete page 2, 3 and 4&#13;
+Close OB&#13;
+Go in the OB folder --&gt; the folder corresponding to Test Medias has always a folder images which contains the image of the page 4. First bug&#13;
+&#13;
+Open OB&#13;
+- go to document Test medias 2&#13;
+- go to page 2, delete the sound, go to page 3, delete the video, go to page 4, delete the image&#13;
+Close OB&#13;
+Go in the OB folder --&gt; the folder corresponding to Test Medias 2 contains always the folders images, videos, audios which contain the media used in pages 2, 3, 4. Second big bug. &#13;
+&#13;
+I look in this folder and i see that the thumbnail and svg of the last page (5) was blank. So i open again OB, go to Test Medias 2 and create a page 6 with a number 6 writed with pen. &#13;
+- i go again in OB folder and i have no more 2 folders, one for Test Medias, one for Test Medias 2, but 3 folders.  Folder 1 corresponds to Test Medias and contains folder images, but folders 2 and 3 contain the 3 folders of medias. The difference is that folder 2 contains thumbnail and svg for 1 page, but folder 3 contain thumbnail and svg for 6 pages (but no thumnail for page 000. Third big bug</steps_to_reproduce>
+        <additional_information>OpenBoard Document 2013-07-04 14-10-44.660 corresponds to Test Medias&#13;
+&#13;
+OpenBoard Document 2013-07-04 14-09-43.259 corresponds to Test Medias 2, this folder contains only thumbail and svg for one page.&#13;
+&#13;
+OpenBoard Document 2013-07-04 14-08-37.626 corresponds to Test Medias 2, this folder contains thumbail and svg for 6 pages (but no thumbnail for page 0).&#13;
+</additional_information>
+    </issue>
+    <issue>
+        <id>21</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="1">General</category>
+        <date_submitted>1372925074</date_submitted>
+        <last_updated>1373641141</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>OB proposes an update, but impossible to go to the address</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>OB proposes an update, but when we click to YES, it's impossible to go to http://get.oe-f.org</description>
+    </issue>
+    <issue>
+        <id>62</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="4">cpavillard</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="100">N/A</reproducibility>
+        <status id="20">feedback</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="8">Internationalization &amp; Wording</category>
+        <date_submitted>1373641574</date_submitted>
+        <last_updated>1374160329</last_updated>
+        <eta id="10">none</eta>
+        <os>all</os>
+        <os_build>all</os_build>
+        <platform>all</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Add sample of picture, video, audio, flash animations in folders</summary>
+        <due_date>1</due_date>
+        <description>Select a few item to fill :picture, audio, video and animation folders</description>
+    </issue>
+    <issue>
+        <id>72</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="40">tweak</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="5">Desktop Mode</category>
+        <date_submitted>1374064285</date_submitted>
+        <last_updated>1374132457</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Pen color selection is wrong in desktop mode when the board page is black</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>If background board page is black the color you can select for pen in desktop mode are wrong</description>
+        <steps_to_reproduce>- Create a new document&#13;
+- Select a black background&#13;
+- Switch to desktop mode&#13;
+- Change color of the pen&#13;
+You can choose white. red, blue and green&#13;
+In fact it's the others colors black, dark red, dark blue, dark green </steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>70</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1374006712</date_submitted>
+        <last_updated>1374007162</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Added PDF form the library do not appears in the navigation side frame without going to Document mode and going back to Board</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>If you have un pdf file in the OpenBoard folder of image (or video or music) you can see it in the library  and add it to a page but when you add it the number of pages don't change and you don't see it  in the navigation side frame without going to Document mode and going back to Board.</description>
+        <steps_to_reproduce>- Put a PDF in the OpenBoard folder of images&#13;
+- Create a document&#13;
+- Go to library image&#13;
+- Search the PDF and add it&#13;
+See the number of pages didn't changed&#13;
+- switch to document mode&#13;
+See the file was add&#13;
+- switch again to board mode&#13;
+See the number of pages has changed</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>69</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1374005255</date_submitted>
+        <last_updated>1374005255</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Mouse scrolling does not work without select an object.</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Mouse scrolling does not work without select an object.&#13;
+In zoom mode it could be great to scroll even I can see any object.&#13;
+</description>
+        <steps_to_reproduce>- Try to use mouse scrolling &#13;
+- Select an object&#13;
+- Try again</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>68</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1374004913</date_submitted>
+        <last_updated>1374004913</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Mouse scrolling of the Apple Magic Mouse does not always work on Board</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>When I select an object I can move once and then nothing append. Sometime nothing append.</description>
+        <steps_to_reproduce>- Try to use the mouse scrolling&#13;
+- Select an object&#13;
+- Try again&#13;
+</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>66</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="10">Document Mode</category>
+        <date_submitted>1374003371</date_submitted>
+        <last_updated>1374003371</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Imported PDF create page with personalized format of OpenBoard. Should we can choose 16/9 or 4/3 when we import files?</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>When I import a PDF of 20 pages for example, OpenBoard create pages with personalized format. If we add notes and export again, we have no uniformity and the export is not efficient. We have to much withe space, the presentation is different as the student see and there is no uniformity.&#13;
+&#13;
+We should have the possibility to choose original size or 16/9 or 4/3</description>
+        <steps_to_reproduce>- Import PDF with more than two pages&#13;
+- Add notes on the side of one page with pen or text box&#13;
+- Export file as PDF again &#13;
+&#13;
+We see all the notes but we have to much withe space, the presentation is different as the student see and there is no uniformity.</steps_to_reproduce>
+        <additional_information>It's impossible to change the format of more than one page at the time.</additional_information>
+    </issue>
+    <issue>
+        <id>65</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373807082</date_submitted>
+        <last_updated>1373807082</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Highlighter not paint uniformly</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>When you use highlighter, there is sometimes darker areas</description>
+        <steps_to_reproduce>- Select the highlighter&#13;
+- Select the bigger size (if you want)&#13;
+- Try in one shot to fill all the page as quick as possible&#13;
+There is sometimes darker areas&#13;
+&#13;
+If you do it very slow it seems to work correctly</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>64</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373805845</date_submitted>
+        <last_updated>1373805845</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Text selected in a text box grouped with other object remains with gray background</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Text selected in a text box grouped with other object remains with gray background</description>
+        <steps_to_reproduce>- Create a text box with text in it&#13;
+- Create a other object&#13;
+- Group the 2 objects&#13;
+- Select the text in the text box&#13;
+- Unselect the group&#13;
+See the selected text with gray background</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>63</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373805297</date_submitted>
+        <last_updated>1373805297</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Using backspace in a text box when it's grouped with an other object, the group disappear.</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>When you try to use backspace in text box when it's grouped with an other object, the group disappear.</description>
+        <steps_to_reproduce>- Create a text box with text in it&#13;
+- Create a other object&#13;
+- Group the 2 objects&#13;
+- Edit the text&#13;
+- Erase a letter with backspace&#13;
+the group disappear</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>6</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="4">cpavillard</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1369619023</date_submitted>
+        <last_updated>1373641914</last_updated>
+        <eta id="10">none</eta>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Issue with text box after resize within a group</summary>
+        <due_date>1</due_date>
+        <description>When the text box is grouped and then resized, the style menu get smaller or bigger</description>
+        <steps_to_reproduce>- Draw one line&#13;
+- Create a texte box and write a few lines&#13;
+- Group the objects&#13;
+- Resize the group to make it way smaller&#13;
+- ungroup&#13;
+- Select the text box&#13;
+-&gt; The UI of the style menu doesn't respect the frame UI size and when trying to resize the text box, the size level is wrong</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>24</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1372938478</date_submitted>
+        <last_updated>1373641889</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>In the copy of objects, z-value are not respected</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>In the copy of objects, z-value are not respected. In the picture joined, the image shows in left some draws (i start with black pen, then red, then green). I select all the drawing and make an copy (cmd-c) and then a paste. You can see the result in the right part of the picture</description>
+    </issue>
+    <issue>
+        <id>26</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1372939544</date_submitted>
+        <last_updated>1373641875</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>text cursor stays active event with pen selected</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>- Enter text in a text box&#13;
+- choose pen, or marker or eraser or straight line or laser and do an action, by example drawing&#13;
+--&gt; the cursor in text box continues to blink and if i use the keyboard, i can enter letters EVEN if another tool is selected</description>
+    </issue>
+    <issue>
+        <id>35</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373429910</date_submitted>
+        <last_updated>1373641839</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Magic finger doesn't select a the finest line of the pen when there is a 45° straight line on it</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Magic finger doesn't select a the finest line (medium and large : ok) of the pen when there is a 45° straight line on it</description>
+        <steps_to_reproduce>- Create a thin line vertical with the pen&#13;
+- Create a line oblique (about 45 degrees) with the straight line tool (I don't know the name)&#13;
+- Select the magic finger&#13;
+you can't select the line created with the pen</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>42</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373468787</date_submitted>
+        <last_updated>1373641825</last_updated>
+        <eta id="10">none</eta>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Remove information when clicking item on the page</summary>
+        <due_date>1</due_date>
+        <description>Clicking an item on the page display an information box</description>
+        <steps_to_reproduce>- Add an item on the board&#13;
+- Click on it using the selector&#13;
+&#13;
+An information box is dislpayed in grey. Please remove it.&#13;
+</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>45</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="30">normal</priority>
+        <severity id="40">tweak</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373490052</date_submitted>
+        <last_updated>1373641811</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Wrong mouse cursor appears when moving images, videos, etc  in the library</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>A mouse cursor with a + is using when moving files in the library </description>
+        <steps_to_reproduce>Required : have one image and one folder in Images Library&#13;
+- Open the library&#13;
+- Select Images&#13;
+- Drop an image in a folder&#13;
+See the mouse cursor with a +</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>22</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="2">bertrand</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="8">Internationalization &amp; Wording</category>
+        <date_submitted>1372930009</date_submitted>
+        <last_updated>1373641698</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Hide OpenBoard must be Cacher OpenBoard</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>Hide OpenBoard must be Cacher OpenBoard</description>
+    </issue>
+    <issue>
+        <id>39</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="4">cpavillard</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="20">feedback</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373465444</date_submitted>
+        <last_updated>1373641595</last_updated>
+        <eta id="10">none</eta>
+        <os>all</os>
+        <os_build>all</os_build>
+        <platform>all</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Magic Finger and undo stack</summary>
+        <due_date>1</due_date>
+        <description>Undo does not work with undo stack</description>
+        <steps_to_reproduce>Create an object&#13;
+Move the object with the magic finger&#13;
+Try to undo&#13;
+-&gt; Doesn't work, undo should put back the element to its original place</steps_to_reproduce>
+        <additional_information>related to 1509 in Jira</additional_information>
+    </issue>
+    <issue>
+        <id>44</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="2">bertrand</handler>
+        <priority id="30">normal</priority>
+        <severity id="40">tweak</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="20">feedback</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373488360</date_submitted>
+        <last_updated>1373641582</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Font size of the library text &quot;Ajout page&quot; and &quot; Tout en fond&quot;</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Font size too big for the field and we can't read the text</description>
+        <steps_to_reproduce>- Go to image&#13;
+- Select an image to insert&#13;
+See text do not appears correctly</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>61</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="6">W3C Widgets</category>
+        <date_submitted>1373640035</date_submitted>
+        <last_updated>1373641470</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Can't modify the number with virtual keyboard</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Can't modify the number with virtual keyboard</description>
+        <steps_to_reproduce>- add dial widget on the board&#13;
+- modify it with virtual keyboard&#13;
+- delete the number on the center&#13;
+-&gt; impossible to type a new number</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>60</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="12">Native Apps</category>
+        <date_submitted>1373639056</date_submitted>
+        <last_updated>1373641455</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Artifacts with magnifying glass</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Artifacts with magnifying glass</description>
+        <steps_to_reproduce>- draw a line&#13;
+- add magnify glass on the board&#13;
+- resize the magnify glass&#13;
+-&gt; artifacts appears</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>59</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="12">Native Apps</category>
+        <date_submitted>1373638609</date_submitted>
+        <last_updated>1373641441</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Tool takes the color of the line</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Tool takes the color of the line</description>
+        <steps_to_reproduce>- draw a red line&#13;
+- add the ruler on the board&#13;
+- move the the ruler on the red line&#13;
+-&gt; see result</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>56</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="4">Web Mode</category>
+        <date_submitted>1373629938</date_submitted>
+        <last_updated>1373641371</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Cant' use trap web</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Cant' use trap web</description>
+        <steps_to_reproduce>- open webmode&#13;
+- check several website with trap web option</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>55</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373622417</date_submitted>
+        <last_updated>1373641355</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Can't use the virtual keyboard with trap content</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Can't use the virtual keyboard with trap content</description>
+        <steps_to_reproduce>- open the web mode&#13;
+- trap the whole page&#13;
+- &gt; can't display the virtual keyboard to change the name of the app</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>54</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="4">Web Mode</category>
+        <date_submitted>1373621358</date_submitted>
+        <last_updated>1373641343</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Can't hide tools in web mode</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Can't hide tools in web mode</description>
+        <steps_to_reproduce>- Open the web mode&#13;
+- Try to hide the tools with the tools icon on the top of the left (main tools bar)&#13;
+-&gt;Can't hide tools in web mode</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>51</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="30">sometimes</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373616318</date_submitted>
+        <last_updated>1373641330</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Moving an item display artifacts</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>cf screnshot&#13;
+&#13;
+</description>
+        <steps_to_reproduce>- draw several item on the board&#13;
+- click an move items alernately&#13;
+-&gt; see artifacts of the frame </steps_to_reproduce>
+        <additional_information>The same with magic finger</additional_information>
+    </issue>
+    <issue>
+        <id>49</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373615446</date_submitted>
+        <last_updated>1373641292</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>An undo on z-level do not respect the last position of the item</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>An undo on z-level do not respect the last position of the item</description>
+        <steps_to_reproduce>- Add 3 picture on the board&#13;
+- Center the third one&#13;
+- Change the Z-level of the third one - send to back&#13;
+- Press the undo button&#13;
+&#13;
+-&gt; Undo do not respect the last position of the third picture</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>43</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373468969</date_submitted>
+        <last_updated>1373641261</last_updated>
+        <eta id="10">none</eta>
+        <os>all</os>
+        <os_build>all</os_build>
+        <platform>all</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Z-level is not saved when copy-paste multiple objects</summary>
+        <due_date>1</due_date>
+        <description>Z-level is not saved when copy-paste multiple objects</description>
+        <steps_to_reproduce>- Drag and drop 1 object to the board and then another one&#13;
+- Put the first object on the of the second object&#13;
+- Move it's position so it is positionned behind the second object&#13;
+- Select the 2 objects&#13;
+- Copy them&#13;
+- Paste them&#13;
+-&gt; The z-lever is not copied, only the objects, therefore the first object loses it's set position</steps_to_reproduce>
+        <additional_information>related to 1623 in Jira</additional_information>
+    </issue>
+    <issue>
+        <id>40</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373466528</date_submitted>
+        <last_updated>1373641246</last_updated>
+        <eta id="10">none</eta>
+        <os>all</os>
+        <os_build>all</os_build>
+        <platform>all</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Flash doesn't appear in Podcast</summary>
+        <due_date>1</due_date>
+        <description>Flash doesn't appear in Podcast</description>
+        <steps_to_reproduce>1. Launch Open-Sankoré&#13;
+2. Add a flash (.swf) on a page.&#13;
+3. Do a podcast to the flash.&#13;
+4. Read the podcast.&#13;
+-&gt; The flash doesn't appear in the podcast. &#13;
+This problem isn't always present (read the video)</steps_to_reproduce>
+        <additional_information>ref : 1192 in Jira</additional_information>
+    </issue>
+    <issue>
+        <id>37</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="5">Desktop Mode</category>
+        <date_submitted>1373463665</date_submitted>
+        <last_updated>1373641210</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.7</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="50">private</view_state>
+        <summary>Mode Desktop, impossible to use with stylet and Wacom PL720</summary>
+        <due_date>1</due_date>
+        <profile_id>11</profile_id>
+        <description>With a Wacom PL 720 as main screen, go to Desktop Mode and :&#13;
+&#13;
+- click with stylet (pen) on eraser, or laser, or keyboard and next on arrow --&gt; everything fine.&#13;
+- click on Pen or stabylo and next on arrow --&gt; impossible to choose arrow, the tool stay as pen or stabilo and with the color (impossible to change color).&#13;
+But, if you click with mouse on arrow, you can select it !&#13;
+&#13;
+So the problem is on the pen and stabylo, not eraser and only with the pen used with PL 720, not the mouse.</description>
+        <additional_information>Reported from Jira 1380&#13;
+Denis added a comment :&#13;
+&#13;
+&#13;
+Confirm issue on 2 00 00. Switching between tools are little complicated on stylus palette in both modes (Desktop and board). But as christian wrote switching between pen\maker and another tools impossible. During implement this fix please Fix next case : arrow tool an be used for multiselection and that areas cant be removed after.</additional_information>
+    </issue>
+    <issue>
+        <id>75</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="20">low</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1374085852</date_submitted>
+        <last_updated>1374085852</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Size of image not respected when using board capture and send it to library</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>When I make a board capture and I send it to the current page size of image is respected. &#13;
+When I make a board capture and I send it to a new page size of image is respected. &#13;
+When I make a board capture and I send it to the library and I add it to the page  size of image is not respected. </description>
+        <steps_to_reproduce>- Create a new document&#13;
+- Select background with grid&#13;
+- Make a board capture and send it to the library&#13;
+- Add the image from the library&#13;
+See the image (gird) is smaller.&#13;
+&#13;
+Do it with sending to the current page or a new page, the grid is the same</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>74</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="20">low</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1374067421</date_submitted>
+        <last_updated>1374067421</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Impossible to switch to greek keyboard language by the floating keyboard</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Impossible to switch greek keyboard language by the floating keyboard.&#13;
+I have use shortcut or preferences. When it's done, the floating keyboard displays correctly.</description>
+        <steps_to_reproduce>- go to Preferences système -&gt; add greek keyboard &#13;
+- restart OpenBoard&#13;
+- try to switch to greek keyboard language by the floating keyboard&#13;
+&#13;
+Solution : choose greek polytonic&#13;
+&#13;
+Greek langage is used form mathematics and physics....</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>47</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="20">low</priority>
+        <severity id="40">tweak</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373527099</date_submitted>
+        <last_updated>1373641795</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Rectangular forms are not well draw in the upper left corner</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Pixel missing on upper left corner of rectangular forms </description>
+        <steps_to_reproduce>- Add a rectangular form (any color)&#13;
+- Resize it bigger&#13;
+Look at the upper left corner</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>8</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <priority id="20">low</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="9">Improvement</category>
+        <date_submitted>1369655362</date_submitted>
+        <last_updated>1373641734</last_updated>
+        <eta id="10">none</eta>
+        <platform>all</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Automatic opening of the virtual keyboard when you click on a text field</summary>
+        <due_date>1</due_date>
+        <description>Improvement&#13;
+Add a preference in the preference pane for opening the virtual keyboard when you work on a text field.&#13;
+For example : &quot;write text&quot; tool.</description>
+    </issue>
+    <issue>
+        <id>16</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="4">cpavillard</reporter>
+        <priority id="20">low</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1370013430</date_submitted>
+        <last_updated>1373641708</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Using the stylus on a table PC to draw creats a delay before the detection of the movement</summary>
+        <due_date>1</due_date>
+        <profile_id>14</profile_id>
+        <description>When drawing strokes using a tablet PC Asus (with Wacom controler, no specific driver installed) there's a delay between the moment the style clics to draw and the detection of the movement, resulting on a more or less short straight line in the befinning of each stroke.</description>
+        <additional_information>See attached file for example</additional_information>
+    </issue>
+    <issue>
+        <id>48</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <priority id="20">low</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="9">Improvement</category>
+        <date_submitted>1373535269</date_submitted>
+        <last_updated>1373641570</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Impossible to resize 2 items selected - Is it normal ?</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Impossible to resize 2 items selected&#13;
+</description>
+        <steps_to_reproduce>- Create two objects (pen, image, etc)&#13;
+- Select the two objects&#13;
+It's impossible to resize the selection (without make a group)</steps_to_reproduce>
+        <additional_information>When you duplicate the selection of multiple items you loose the selection</additional_information>
+    </issue>
+    <issue>
+        <id>52</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <priority id="20">low</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="4">Web Mode</category>
+        <date_submitted>1373620502</date_submitted>
+        <last_updated>1373641555</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Unable to copy and paste text from url field and search field</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Unable to copy and paste text from url field and search field</description>
+        <steps_to_reproduce>- open webmode&#13;
+- copy an url or anything in the search field&#13;
+- copy it from the menu or with ctrl + c&#13;
+- try to paste it on the board&#13;
+&#13;
+-&gt; no result but a warning box appear</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>2</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="4">cpavillard</reporter>
+        <priority id="20">low</priority>
+        <severity id="40">tweak</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="10">new</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="9">Improvement</category>
+        <date_submitted>1369612669</date_submitted>
+        <last_updated>1373641515</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac Os X</os>
+        <os_build>10.7</os_build>
+        <platform>Desktop</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Installer/App need to be signed</summary>
+        <due_date>1</due_date>
+        <profile_id>3</profile_id>
+        <description>On Mac OS X 10.8, application is not signed and therefore requires the user to either modify its security settings or open the application whith the right command. This can be considered as a serious issue in terms of usability</description>
+        <steps_to_reproduce>- Launch the installer&#13;
+- See the problem (see screenshot)</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>57</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="20">low</priority>
+        <severity id="70">crash</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="50">assigned</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="10">Document Mode</category>
+        <date_submitted>1373632621</date_submitted>
+        <last_updated>1373641385</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <view_state id="10">public</view_state>
+        <summary>Impossible to import an .iwb file</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Impossible to import an .iwb file</description>
+        <steps_to_reproduce>- create several pages on the software with different content&#13;
+- export it in .iwb&#13;
+- import it through document mode with import button or add button&#13;
+&#13;
+&#13;
+-&gt; crash</steps_to_reproduce>
+    </issue>
+</mantis>

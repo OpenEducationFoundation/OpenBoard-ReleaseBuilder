@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mantis version="1.2.15" urlbase="http://bugs.oe-f.org/" issuelink="#" notelink="~" format="1">
+    <issue>
+        <id>72</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="40">tweak</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="5">Desktop Mode</category>
+        <date_submitted>1374064285</date_submitted>
+        <last_updated>1375096957</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.02</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Pen color selection is wrong in desktop mode when the board page is black</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>If background board page is black the color you can select for pen in desktop mode are wrong</description>
+        <steps_to_reproduce>- Create a new document&#13;
+- Select a black background&#13;
+- Switch to desktop mode&#13;
+- Change color of the pen&#13;
+You can choose white. red, blue and green&#13;
+In fact it's the others colors black, dark red, dark blue, dark green </steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>63</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1373805297</date_submitted>
+        <last_updated>1375075347</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.02</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Using backspace in a text box when it's grouped with an other object, the group disappear.</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>When you try to use backspace in text box when it's grouped with an other object, the group disappear.</description>
+        <steps_to_reproduce>- Create a text box with text in it&#13;
+- Create a other object&#13;
+- Group the 2 objects&#13;
+- Edit the text&#13;
+- Erase a letter with backspace&#13;
+the group disappear</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>76</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="10">shibakaneki</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="10">Document Mode</category>
+        <date_submitted>1374736636</date_submitted>
+        <last_updated>1375055006</last_updated>
+        <eta id="10">none</eta>
+        <os>MacOSX</os>
+        <os_build>10.6</os_build>
+        <platform>Mac, but certainly all</platform>
+        <version>0.08.b.01</version>
+        <fixed_in_version>0.08.b.02</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Add a page from another document to the actual document doesn't add anything</summary>
+        <due_date>1</due_date>
+        <description>When the user tries to add a page from another document to the current one, it comes back to the Board mode without adding the selected page.</description>
+        <steps_to_reproduce>- Launch OpenBoard&#13;
+- Go to Document mode&#13;
+- Select a page from another document&#13;
+- Click on Add to current document&#13;
+--&gt; the page is not added</steps_to_reproduce>
+        <additional_information>It is like this all the time, BUT, when the user double-clicks on the current document current page, then it will work correctly all the time.</additional_information>
+    </issue>
+    <issue>
+        <id>27</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="80">block</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="1">General</category>
+        <date_submitted>1372942439</date_submitted>
+        <last_updated>1374824295</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.02</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Images, sounds, videos deleted can be found in folder OB documents</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>Images, sounds, videos deleted can be found in folder OB documents and even more, new folder appears in OB folder in /Application Support/Documents</description>
+        <steps_to_reproduce>Open OB&#13;
+- write 1 in page 1 with pen&#13;
+- drag a sound in page 2&#13;
+- drag a video in page 3&#13;
+- drag a picture in page 4&#13;
+- write 5 in page 5&#13;
+- go to mode Documents, name the document as Test medias ; duplicate Test medias to Test medias 2&#13;
+Close OB&#13;
+Go in the OB folder (in Application Support), Documents --&gt; there is 2 OB folders&#13;
+Open OB&#13;
+- go to document Test medias&#13;
+- from the Document mode, delete page 2, 3 and 4&#13;
+Close OB&#13;
+Go in the OB folder --&gt; the folder corresponding to Test Medias has always a folder images which contains the image of the page 4. First bug&#13;
+&#13;
+Open OB&#13;
+- go to document Test medias 2&#13;
+- go to page 2, delete the sound, go to page 3, delete the video, go to page 4, delete the image&#13;
+Close OB&#13;
+Go in the OB folder --&gt; the folder corresponding to Test Medias 2 contains always the folders images, videos, audios which contain the media used in pages 2, 3, 4. Second big bug. &#13;
+&#13;
+I look in this folder and i see that the thumbnail and svg of the last page (5) was blank. So i open again OB, go to Test Medias 2 and create a page 6 with a number 6 writed with pen. &#13;
+- i go again in OB folder and i have no more 2 folders, one for Test Medias, one for Test Medias 2, but 3 folders.  Folder 1 corresponds to Test Medias and contains folder images, but folders 2 and 3 contain the 3 folders of medias. The difference is that folder 2 contains thumbnail and svg for 1 page, but folder 3 contain thumbnail and svg for 6 pages (but no thumnail for page 000. Third big bug</steps_to_reproduce>
+        <additional_information>OpenBoard Document 2013-07-04 14-10-44.660 corresponds to Test Medias&#13;
+&#13;
+OpenBoard Document 2013-07-04 14-09-43.259 corresponds to Test Medias 2, this folder contains only thumbail and svg for one page.&#13;
+&#13;
+OpenBoard Document 2013-07-04 14-08-37.626 corresponds to Test Medias 2, this folder contains thumbail and svg for 6 pages (but no thumbnail for page 0).&#13;
+</additional_information>
+    </issue>
+    <issue>
+        <id>46</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="40">high</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="30">sometimes</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="10">Document Mode</category>
+        <date_submitted>1373526052</date_submitted>
+        <last_updated>1374736362</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.02</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Application crash sometimes  when using &quot;Ajouter au document&quot; or do nothing or work</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>Sometimes application crash when using &quot;Ajouter au document&quot;. But the page is still add.&#13;
+Sometimes application come back to the board mode and do not add any page&#13;
+Sometimes it work well&#13;
+&#13;
+I tried to find a schema but I didn't find it</description>
+        <steps_to_reproduce>-Create a new document&#13;
+- Switch to Document mode &#13;
+- Select a other document&#13;
+- Select a page into it&#13;
+- Click add to file  &quot;Ajouter au document&quot;.</steps_to_reproduce>
+        <additional_information>I fixed a cause of the crash and was not able to reproduce the crash. Please have a close look at this bug when doing the tests and try to see if it is really gone or not. For me it should be fixed but due to the fact that it was quite random, it needs a close verification.&#13;
+&#13;
+The fact that no page is added sometimes is another bug, I will create a separate bug for it because I found the exact way to reproduce it.</additional_information>
+    </issue>
+    <issue>
+        <id>59</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="2">bertrand</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="12">Native Apps</category>
+        <date_submitted>1373638609</date_submitted>
+        <last_updated>1374564531</last_updated>
+        <eta id="10">none</eta>
+        <os>Windows</os>
+        <os_build>Seven</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.02</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Tool takes the color of the line</summary>
+        <due_date>1</due_date>
+        <profile_id>13</profile_id>
+        <description>Tool takes the color of the line</description>
+        <steps_to_reproduce>- draw a red line&#13;
+- add the ruler on the board&#13;
+- move the the ruler on the red line&#13;
+-&gt; see result</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>26</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="10">open</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1372939544</date_submitted>
+        <last_updated>1374563986</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.02</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>text cursor stays active event with pen selected</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>- Enter text in a text box&#13;
+- choose pen, or marker or eraser or straight line or laser and do an action, by example drawing&#13;
+--&gt; the cursor in text box continues to blink and if i use the keyboard, i can enter letters EVEN if another tool is selected</description>
+    </issue>
+    <issue>
+        <id>29</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="8">frus</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="30">text</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="11">Others</category>
+        <date_submitted>1373369430</date_submitted>
+        <last_updated>1374474860</last_updated>
+        <eta id="10">none</eta>
+        <os>MAC</os>
+        <os_build>10.7.5</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>0.08.b.02</fixed_in_version>
+        <target_version>0.08.b.02</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Name OpenBoard doesn't appear in the file  ReleaseNotes.pdf and JournalDesModifiactions.pdf</summary>
+        <due_date>1</due_date>
+        <profile_id>16</profile_id>
+        <description>In the OpenBoard.dmg the two files ReleaseNotes.pdf and JournalDesModifiactions.pdf the name OpenBoard doesn't appear </description>
+        <steps_to_reproduce>- Open OpenBoard.dmg&#13;
+- Read the two files</steps_to_reproduce>
+    </issue>
+</mantis>
