@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mantis version="1.2.15" urlbase="http://bugs.oe-f.org/" issuelink="#" notelink="~" format="1">
+    <issue>
+        <id>110</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="1">BugsMaster</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="9">Improvement</category>
+        <date_submitted>1386688124</date_submitted>
+        <last_updated>1387448064</last_updated>
+        <eta id="10">none</eta>
+        <os>All</os>
+        <os_build>All</os_build>
+        <platform>x86 x86_64</platform>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Text alignment</summary>
+        <due_date>1</due_date>
+        <profile_id>15</profile_id>
+        <description>Provide the alignment feature for a selected text.&#13;
+&#13;
+This feature is realized introducing a multi state button on the frame.&#13;
+The user should be able align a text to the left/center/right of the text frame.  </description>
+    </issue>
+    <issue>
+        <id>103</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <duplicate_id>107</duplicate_id>
+        <priority id="30">normal</priority>
+        <severity id="10">feature</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="9">Improvement</category>
+        <date_submitted>1380181845</date_submitted>
+        <last_updated>1386758053</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>1.00.01</version>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>recording a page is done when changing page, would it be better to record after a certain time</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>Recording a page is done when changing page, so if there is a crash, ther user lost all his page.&#13;
+Would it be better to record after a certain time and not only when changing page ?</description>
+    </issue>
+    <issue>
+        <id>107</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="1">BugsMaster</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="100">N/A</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="9">Improvement</category>
+        <date_submitted>1386687593</date_submitted>
+        <last_updated>1386756266</last_updated>
+        <eta id="10">none</eta>
+        <os>All</os>
+        <os_build>All</os_build>
+        <platform>x86 x86_64</platform>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Page backuped reguraly</summary>
+        <due_date>1</due_date>
+        <profile_id>15</profile_id>
+        <description>An automatic backup should be performed every N seconds. This time is defined on the OpenBoard config file</description>
+    </issue>
+    <issue>
+        <id>111</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="1">BugsMaster</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1386755951</date_submitted>
+        <last_updated>1386755966</last_updated>
+        <eta id="10">none</eta>
+        <os>All</os>
+        <os_build>All</os_build>
+        <platform>x86 x86_64</platform>
+        <version>1.00.00</version>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Locked state not persisted for groups</summary>
+        <due_date>1</due_date>
+        <profile_id>15</profile_id>
+        <description>There is a problem with the locked status when OpenBoard is restarted</description>
+        <steps_to_reproduce>1. Create on a page a group and flag it as locked.&#13;
+2. Restart OpenBoard and open the previous document &#13;
+&#13;
+The locked status isn't persisted.</steps_to_reproduce>
+    </issue>
+    <issue>
+        <id>108</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="1">BugsMaster</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="9">Improvement</category>
+        <date_submitted>1386687746</date_submitted>
+        <last_updated>1386688308</last_updated>
+        <eta id="10">none</eta>
+        <os>All</os>
+        <os_build>All</os_build>
+        <platform>x86 x86_64</platform>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Group/Ungroup</summary>
+        <due_date>1</due_date>
+        <profile_id>15</profile_id>
+        <description>The button to group/ungroup should be moved from the top bar into the selection frame (the group button) and the into the grouped item frame (ungroup button).</description>
+    </issue>
+    <issue>
+        <id>109</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="1">BugsMaster</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="70">have not tried</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="9">Improvement</category>
+        <date_submitted>1386687807</date_submitted>
+        <last_updated>1386688226</last_updated>
+        <eta id="10">none</eta>
+        <os>All</os>
+        <os_build>All</os_build>
+        <platform>x86 x86_64</platform>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Square loop</summary>
+        <due_date>1</due_date>
+        <profile_id>15</profile_id>
+        <description>A square loop should be available in addition of the round one.</description>
+    </issue>
+    <issue>
+        <id>106</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="1">BugsMaster</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="100">N/A</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="10">Document Mode</category>
+        <date_submitted>1386686780</date_submitted>
+        <last_updated>1386686829</last_updated>
+        <eta id="10">none</eta>
+        <os>All</os>
+        <os_build>All</os_build>
+        <platform>x86 x86_64</platform>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Document tree sort</summary>
+        <due_date>1</due_date>
+        <profile_id>15</profile_id>
+        <description>The document tree should be ordered by creation date</description>
+    </issue>
+    <issue>
+        <id>24</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1372938478</date_submitted>
+        <last_updated>1382011688</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>0.08.b.00</version>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>In the copy of objects, z-value are not respected</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>In the copy of objects, z-value are not respected. In the picture joined, the image shows in left some draws (i start with black pen, then red, then green). I select all the drawing and make an copy (cmd-c) and then a paste. You can see the result in the right part of the picture</description>
+    </issue>
+    <issue>
+        <id>102</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="10">shibakaneki</handler>
+        <priority id="30">normal</priority>
+        <severity id="50">minor</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1378980538</date_submitted>
+        <last_updated>1379639090</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>1.00.01</version>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Write text on text box, change color, change size --&gt; color disappears</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>Write text on text box, select text, change color,  then change size --&gt; color disappears&#13;
+&#13;
+Also in KUbuntu 12.04&#13;
+&#13;
+Bug wasn't present in Open Sankore 2.0</description>
+    </issue>
+    <issue>
+        <id>98</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="20">fixed</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1378739461</date_submitted>
+        <last_updated>1378896232</last_updated>
+        <eta id="10">none</eta>
+        <version>1.00.01</version>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Import a pdf, put a mask on it, manipulate it and then select stably and begin to draw -&gt; mask becomes transparent</summary>
+        <due_date>1</due_date>
+        <description>Import a pdf, put a mask on it, manipulate it and then select stably and begin to draw -&gt; the stabylo on mask make appears the content which is normaly masked, sometimes all mask becomes transparent. See 2 pictures. &#13;
+Bug doesn't appear in OS 2.0</description>
+    </issue>
+    <issue>
+        <id>99</id>
+        <project id="1">OpenBoard</project>
+        <reporter id="5">ramuntcho</reporter>
+        <handler id="1">BugsMaster</handler>
+        <priority id="40">high</priority>
+        <severity id="60">major</severity>
+        <reproducibility id="10">always</reproducibility>
+        <status id="80">resolved</status>
+        <resolution id="40">unable to reproduce</resolution>
+        <projection id="10">none</projection>
+        <category id="3">Board Mode</category>
+        <date_submitted>1378816049</date_submitted>
+        <last_updated>1378896161</last_updated>
+        <eta id="10">none</eta>
+        <os>Mac</os>
+        <os_build>10.8</os_build>
+        <platform>x86_64</platform>
+        <version>1.00.00</version>
+        <fixed_in_version>1.01.00</fixed_in_version>
+        <target_version>1.01.00</target_version>
+        <view_state id="10">public</view_state>
+        <summary>Mask doesn't mask on student screen in certain cases</summary>
+        <due_date>1</due_date>
+        <profile_id>12</profile_id>
+        <description>Mask doesn't mask on student screen : &#13;
+- we put mask on teacher screen, and we put pdf in background --&gt; pdf is masked in student screen&#13;
+but nothing in student screen, nothing masked&#13;
+- we do the same with picture or annotation --&gt;they are masked in teacher screen, not in student screen.</description>
+    </issue>
+</mantis>
