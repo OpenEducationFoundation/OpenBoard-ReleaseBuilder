@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 
 from xml.dom.minidom import parseString
 import sys
@@ -25,12 +25,14 @@ class dirPath(object):
 
 class TexFileBuilder(object):
     def headerOfFile(self,version, date):
-        result ='\\newpage \n'
+        result = '\\newpage \n'
+        result += '\\vspace{5mm}'
         result += '\\section*{'
         result += ' Version : ' + version
         result += ' released the ' + datetime.datetime.strptime(date, "%Y%m%d").strftime("%B %d, %Y")
         result += '}\n'
-        result += '\\addcontentsline{toc}{section}{Version :' + version +'}\n\n'
+        result += '\\addcontentsline{toc}{section}{Version : ' + version +'}\n\n'
+        result += '\\vspace{10mm}'
 
         return result
 
@@ -110,7 +112,7 @@ def main():
         directories = dirPath()
         directories.cleanDirectoy(dirPath.latexWorkingDir)
         directories.checkDirectory(dirPath.latexWorkingDir)
-        
+
         xmlParser = XMLParser()
         texFileBuilder=TexFileBuilder()
         files = glob.glob(dirPath.exportedXMLDir + '/*.xml')
@@ -128,14 +130,14 @@ def main():
             texFileBuilder.writeFileOnDisk(version,fileText)
 
         texFileBuilder.updateTexDocument()
-        
+
         os.chdir(dirPath.latexWorkingDir)
         #the second call is necessary to build the pdf content
         subprocess.call(['pdflatex', 'OpenBoardReleaseNote.tex'])
         subprocess.call(['pdflatex', 'OpenBoardReleaseNote.tex'])
-        os.chdir('..')        
+        os.chdir('..')
         os.rename(dirPath.latexWorkingDir+'/OpenBoardReleaseNote.pdf', 'OpenBoardReleaseNote.pdf')
-        
+
         sys.exit(0)
 
     except getopt.error, msg:
